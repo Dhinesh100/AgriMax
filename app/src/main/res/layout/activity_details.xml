@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="?actionBarSize"
+            android:padding="@dimen/appbar_padding"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="268dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="100dp"
+            android:background="#11000000"
+            android:gravity="center"
+            android:hint="District"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_below="@+id/editText"
+            android:layout_width="268dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="40dp"
+            android:background="#11000000"
+            android:gravity="center"
+            android:hint="Year"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_below="@+id/editText2"
+            android:layout_width="268dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="40dp"
+            android:background="#11000000"
+            android:gravity="center"
+            android:hint="Crop"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_below="@+id/editText3"
+            android:layout_width="268dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="40dp"
+            android:background="#11000000"
+            android:gravity="center"
+            android:hint="Season"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_below="@+id/editText4"
+            android:layout_width="268dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="40dp"
+            android:background="#11000000"
+            android:gravity="center"
+            android:hint="Area"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editText5"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_alignLeft="@+id/editText5"
+            android:layout_alignEnd="@+id/editText5"
+            android:layout_alignRight="@+id/editText5"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginRight="-1dp"
+            android:background="#00A86B"
+            android:text="PREDICT DEMAND"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+</FrameLayout>

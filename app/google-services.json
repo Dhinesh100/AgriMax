@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "950268003828",
+    "firebase_url": "https://agrimax7-b5376.firebaseio.com",
+    "project_id": "agrimax7-b5376",
+    "storage_bucket": "agrimax7-b5376.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950268003828:android:b00b8b834bf3bf75a725a1",
+        "android_client_info": {
+          "package_name": "com.example.agrimax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950268003828-aluj4dold6ddb6kkc9oe7s8ndncpu5qj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agrimax",
+            "certificate_hash": "61bec1b009e8b70441506ed6dfa4a6de21cd5a6f"
+          }
+        },
+        {
+          "client_id": "950268003828-ja6g8k049vmedr3jv2cl17g2nternl5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOXvELuu8BbErQx06jNLzM6JFvwMNDs9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950268003828-ja6g8k049vmedr3jv2cl17g2nternl5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
